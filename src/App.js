@@ -3,7 +3,7 @@ import React from 'react'
 class App extends React.Component {
     render() {
         return (
-            <div>Hello World</div>
+            <div>This is my First React Webpack Project</div>
         )
     }
 }
