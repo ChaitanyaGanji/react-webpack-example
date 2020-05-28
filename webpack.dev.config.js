@@ -40,7 +40,14 @@ module.exports = {
                     "css-loader",
                     "sass-loader"
                 ]
-
+            },
+            {
+                test : /\.(less)$/,
+                use : [
+                    minicssextractplugin.loader,
+                    "css-loader",
+                    "less-loader"
+                ]
             },
             {
                 test : /\.(hbs)$/,
